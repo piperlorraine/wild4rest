@@ -1,0 +1,106 @@
+img, media {
+  max-width: 100%;
+}
+
+html, body {
+    font: 14px 'Ubuntu', sans-serif;
+    color: #333;
+    background-color:#E2E8CA;
+}
+.l-header .l-branding, .l-header .l-region--navigation, .l-header .l-region--header {
+    width:100%;
+    margin:0;
+    float:none;
+    padding:0;
+}
+.l-header .l-branding {
+    background-color:#fdfff3;
+}
+.l-header .l-region--navigation {
+    background-color:#1F5C45;
+}
+.l-header .l-region--header {
+    background-color:#333;
+}
+#block-block-2 {
+    height:auto;
+    color:#fff;
+    font:40px 'Satisfy', cursive;
+    position:relative;
+}
+
+div.l-main {
+    margin:0 auto;
+    padding:36px 35px;
+    background-color:#fff;
+}
+.l-region--sidebar-first {
+    background-color:#f4f4f1;
+}
+
+#block-system-main-menu ul.menu {
+    margin:0;
+    padding:15px 0;
+    list-style:none;
+}
+#block-system-main-menu ul.menu li {
+    margin:0 15px;
+    padding:0;
+    list-style:none;
+    display:inline-block;
+    text-transform:uppercase;
+}
+#block-system-main-menu ul.menu li a {
+    color:#fff;
+    text-decoration:none;
+}
+#block-system-main-menu ul.menu li a.active {
+    color:#ccc;
+}
+#block-system-main-menu ul.menu li a:hover {
+    text-decoration:underline;
+}
+/* l-constrained */
+.l-branding-inner, .l-region--navigation .block, .l-region--header .block {
+  width: 95%;
+  margin: 0 auto;
+  *zoom: 1;
+}
+.l-header .l-region--header .block {
+    float:none;
+}
+.l-branding-inner:after, .l-region--navigation .block, .l-region--header .block {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media (min-width: 44em) {
+  .l-branding-inner, .l-region--navigation .block, .l-region--header .block {
+    width: 90%;
+  }
+  
+  .l-header .l-region--header {
+    background:url(../images/header1.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#block-block-2 {
+    height:350px;
+    font:62px 'Satisfy', cursive;
+}
+#block-block-2 .block__content {
+    position:absolute;
+    display:block;
+    bottom:50px;
+    right:10px;
+}
+}
+
+@media (min-width: 70em) {
+  .l-branding-inner, .l-region--navigation .block, .l-region--header .block {
+    width: 80%;
+  }
+}
