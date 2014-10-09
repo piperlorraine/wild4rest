@@ -7,7 +7,12 @@ html, body {
     color: #333;
     background-color:#E2E8CA;
 }
-
+h1,h2 {
+    color:#1F5C45;
+}
+h2 {
+    margin:2em 0 0;
+}
 a {
     color:#375937;
 }
