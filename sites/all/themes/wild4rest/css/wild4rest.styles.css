@@ -1,5 +1,9 @@
 img, media {
   max-width: 100%;
+  height:auto;
+}
+form {
+  width:600px;
 }
 
 html, body {
@@ -10,11 +14,15 @@ html, body {
 h1,h2 {
     color:#1F5C45;
 }
-h2 {
+.l-content h2 {
     margin:2em 0 0;
 }
 a {
     color:#375937;
+}
+#user-login-form ul, #user-login-form li {
+    padding:0;
+   list-style:none;
 }
 .l-header .l-branding, .l-header .l-navigation, .l-header .l-region--navigation, .l-header .l-region--header {
     width:100%;
@@ -92,13 +100,20 @@ div.l-main {
     font-size:20px;
     text-align:center;
 }
+.views-row {
+    float:left;
+    margin:15px;
+}
+.node-type-page .l-main .l-content {
+    max-width:800px;
+}
 @media (min-width: 44em) {
   .l-branding-inner, .l-header .l-region--navigation, .l-region--header .block {
     width: 90%;
   }
   
   .l-header .l-region--header {
-    background:url(../images/header1.jpg) no-repeat center center;
+    background:#333 url(../images/header1.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
