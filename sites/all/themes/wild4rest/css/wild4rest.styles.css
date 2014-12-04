@@ -107,6 +107,31 @@ div.l-main {
 .node-type-page .l-main .l-content {
     max-width:800px;
 }
+.vid-arrow {
+   display:block;
+   position:absolute;
+   top:0;
+   left:0;
+   width:100%;
+   height:100%
+}
+.vid-arrow a {
+   background:url(../images/arrow.png) no-repeat center center;
+   display:block;
+   width:100%;
+   height:100%;
+   text-indent:-999px;
+   overflow:hidden;
+}
+.views-field-field-youtube-url-1 {
+   position:relative;
+}
+.view-progress-photos .views-field-title {
+   width:200px;
+}
+.view-progress-photos .views-field-title a {
+   text-decoration:none;
+}
 @media (min-width: 44em) {
   .l-branding-inner, .l-header .l-region--navigation, .l-region--header .block {
     width: 90%;
